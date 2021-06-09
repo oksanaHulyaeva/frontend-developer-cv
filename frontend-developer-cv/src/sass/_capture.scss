@@ -1,0 +1,21 @@
+h3 {
+  font-family: 'Alegreya SC', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  color: $light;
+}
+
+.left-container h3 {
+  color: $light;
+  border-top: 2px solid $light;
+  border-bottom: 2px solid $light;
+}
+
+.right-container h3 {
+  color: $dark;
+  border-top: 2px solid $dark;
+  border-bottom: 2px solid $dark;
+}

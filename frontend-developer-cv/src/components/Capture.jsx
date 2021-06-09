@@ -1,5 +1,4 @@
 import React from 'react';
-import './capture.scss'
 
 export const Capture = ({title}) => {
   return (

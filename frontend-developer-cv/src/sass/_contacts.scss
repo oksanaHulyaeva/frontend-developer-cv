@@ -1,0 +1,17 @@
+.contacts li {
+  display: flex;
+  margin-bottom: 1.4rem;
+}
+
+.contacts a:hover {
+  color: $accent;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-right: 8px;
+}
+
+.icon path {
+  fill: $accent;
+}

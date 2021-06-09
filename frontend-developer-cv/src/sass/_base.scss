@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #47494A;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+body {
+  background-color: $light;
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+
+section {
+  width: 100%;
+  margin-top: 60px;
+}
+
+section p,
+section a,
+section li,
+section span,
+.period {
+  font-size: 1.75rem;
+}
+
+.left-container section a,
+.left-container section p
+ {
+  color: $light;
+}
+
+.mobily-only {
+  display: block;
+}
+
+.screen-only {
+  display: none;
+}
+
+/* LAYOUT */
+
+.flex-container {
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .left-container {
+    width: 100%;
+    padding: 100px 40px;
+    background-color: $dark;
+    display: flex;
+    justify-content: center;
+    .inner-content {
+      width: 80%;
+      @extend %flex-column-center;
+    }
+  }
+  .right-container {
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .inner-content {
+      width: 80%;
+      @extend %flex-column-center;
+    }
+  }
+}
+
+/* HEADER */
+
+h1 {
+  margin-top: 50px;
+  color: $accent;
+  font-family: 'Alegreya SC', serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 4rem;
+  line-height: 7.75rem;
+  text-align: center;
+}
+
+/* EDUCATION */
+
+section h4,
+.outer-links
+{
+  margin-top: 30px;
+  font-size: 1.75rem;
+  color: $accent !important;
+}
+
+.outer-links:hover {
+  text-decoration: underline;
+}
+
+/* CERTIFICATES */
+
+.rss-certificate {
+  width: 200px;
+  height: 140px;
+  background-image: url('../assets/sertificate_rss.png');
+  background-size: contain;
+  transition: $transition;
+  margin-top: 40px;
+}
+
+.rss-certificate:hover {
+  box-shadow: 0px 0px 5px 0px $accent;
+}
+
+/* SKILLS */
+
+.flex-2-columns {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.flex-2-columns .left {
+  min-width: 170px;
+  font-weight: 700;
+}
+
+.flex-2-columns li {
+  margin-bottom: 10px;
+}

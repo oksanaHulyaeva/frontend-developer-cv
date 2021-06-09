@@ -1,0 +1,22 @@
+%transition {
+  transition: all .3s ease-out;
+}
+
+%bg-center {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

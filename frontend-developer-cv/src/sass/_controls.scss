@@ -1,0 +1,38 @@
+.controls {
+  width: 100%;
+  min-width: 320px;
+  height:40px;
+  position: absolute;
+  top: 0;
+}
+
+.controls ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.controls button {
+  width: 40px;
+  height: 40px;
+  margin: 20px 10px 0 0;
+  // background: $transparent;
+  border: 2px solid $accent;
+  border-radius: 50%;
+  color: $accent;
+  font-size: 2rem;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  transition: $transition;
+}
+
+.controls button:hover {
+  color: $dark;
+  border: 2px solid $dark;
+}
+
+@media (max-width: 768px) {
+  button {
+    background-color: $dark;
+  }
+}
