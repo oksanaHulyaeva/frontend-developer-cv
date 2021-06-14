@@ -1,4 +1,4 @@
-h3 {
+.section-title {
   font-family: 'Alegreya SC', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
@@ -8,13 +8,13 @@ h3 {
   color: $light;
 }
 
-.left-container h3 {
+.dark-container .section-title {
   color: $light;
   border-top: 2px solid $light;
   border-bottom: 2px solid $light;
 }
 
-.right-container h3 {
+.light-container .section-title {
   color: $dark;
   border-top: 2px solid $dark;
   border-bottom: 2px solid $dark;

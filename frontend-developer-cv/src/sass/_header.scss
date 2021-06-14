@@ -1,0 +1,31 @@
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  color: $accent;
+  font-family: 'Alegreya SC', serif;
+  font-size: 4rem;
+  line-height: 6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.light-container h1 {
+  display: none;
+}
+
+.dark-container h1 {
+  @include media-tablet {
+    display: none;
+  }
+}
+
+.light-container h1 {
+  @include media-tablet {
+    margin-top: 0;
+    display: block;
+    text-align: left;
+    font-size: 5rem;
+    line-height: 7.8rem;
+  }
+}

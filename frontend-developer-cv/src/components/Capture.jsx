@@ -2,6 +2,6 @@ import React from 'react';
 
 export const Capture = ({title}) => {
   return (
-    <h3>{title}</h3>
+    <h3 className={'section-title'}>{title}</h3>
   )
 }

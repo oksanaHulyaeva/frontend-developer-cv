@@ -1,0 +1,11 @@
+section h4,
+.outer-links
+{
+  margin-top: 30px;
+  font-size: 1.75rem;
+  color: $accent !important;
+}
+
+.outer-links:hover {
+  text-decoration: underline;
+}
