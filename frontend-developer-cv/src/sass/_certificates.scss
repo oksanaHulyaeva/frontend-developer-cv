@@ -1,12 +1,8 @@
 .rss-certificate {
   width: 200px;
   height: 140px;
-  background-image: url('../assets/sertificate_rss.png');
-  background-size: contain;
-  transition: $transition;
   margin-top: 40px;
-}
-
-.rss-certificate:hover {
-  box-shadow: 0px 0px 5px 0px $accent;
+  &:hover {
+    box-shadow: 0px 0px 5px 0px $accent;
+  }
 }

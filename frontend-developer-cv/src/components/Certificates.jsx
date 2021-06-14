@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Capture } from './Capture';
+import img from '../assets/sertificate_rss.png'
 
 export const Certificates = (props) => {
   return (
@@ -8,10 +9,14 @@ export const Certificates = (props) => {
       <Capture title={props.isEnglish ? 'Certificates' : 'Сертификаты'}/>
       <div>
         <a
-          href="../../assets/certificate_rss.png"
+          href={img}
           title="Rolling Scope School Certificate"
-          target="_blank">
-          <div className={"rss-certificate"}></div>
+          target="_blank"
+          rel="noreferrer">
+          <img
+            src={img}
+            alt="Certificate"
+            className={"rss-certificate"} />
         </a>
       </div>
     </section>

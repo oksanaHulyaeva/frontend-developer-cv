@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,7 +14,6 @@ body {
   background-color: $light;
   width: 100vw;
   min-width: 320px;
-  overflow-x: hidden;
 }
 
 .accent {
@@ -41,12 +40,6 @@ section span,
   line-height: 3rem;
 }
 
-html,
-body {
-  min-height: 100%;
-  height: 100%;
-}
-
 /* LAYOUT */
 
 .flex-container {
@@ -55,10 +48,14 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  .dark-container {
+  .dark-container,
+  .light-container {
     width: 100%;
-    padding: 100px 0;
+    min-width: 320px;
     display: flex;
+  }
+  .dark-container {
+    padding: 100px 0;
     justify-content: center;
     background-color: $dark;
     .inner-content {
@@ -69,10 +66,7 @@ body {
     }
   }
   .light-container {
-    width: 100%;
-    min-width: 320px;
     padding: 40px 0;
-    display: flex;
     flex-direction: column;
     align-items: center;
     .inner-content {

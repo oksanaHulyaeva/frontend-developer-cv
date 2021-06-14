@@ -11,18 +11,19 @@ export const Contacts = (props) => {
       <Capture title={props.isEnglish ? 'Contacts' : 'Контакты'}/>
       <ul className="contacts">
         <li>
-          <p><FontAwesomeIcon icon={faMapMarkerAlt} className="icon" /> </p>
+          <p><FontAwesomeIcon icon={faMapMarkerAlt} className="icon" /></p>
           <p>
             {props.isEnglish ? 'Minsk, St. Petersburg' : 'Минск, Санкт-Петербург'}
           </p>
         </li>
         <li>
-          <p><FontAwesomeIcon icon={faMobileAlt} className="icon"/> </p>
+          <p><FontAwesomeIcon icon={faMobileAlt} className="icon"/></p>
           <p><a href="tel:+375297549130">+37529 754 9130</a></p>
         </li>
         <li>
           <p><FontAwesomeIcon icon={faEnvelope} className="icon"/></p>
-          <p><a href="mailto:aksana.huliayeva@tut.by">aksana.huliayeva@tut.by</a></p></li>
+          <p><a href="mailto:aksana.huliayeva@tut.by">aksana.huliayeva@tut.by</a></p>
+        </li>
         <li>
           <p><FontAwesomeIcon icon={faGithub} className="icon"/></p>
           <p><a 

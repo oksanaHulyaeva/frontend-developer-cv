@@ -12,20 +12,17 @@ h1 {
 
 .light-container h1 {
   display: none;
-}
-
-.dark-container h1 {
-  @include media-tablet {
-    display: none;
-  }
-}
-
-.light-container h1 {
   @include media-tablet {
     margin-top: 0;
     display: block;
     text-align: left;
     font-size: 5rem;
     line-height: 7.8rem;
+  }
+}
+
+.dark-container h1 {
+  @include media-tablet {
+    display: none;
   }
 }

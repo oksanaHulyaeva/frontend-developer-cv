@@ -1,11 +1,11 @@
 .section-title {
+  margin-bottom: 30px;
+  letter-spacing: 4px;
+  color: $light;
+  font-size: 2.5rem;
   font-family: 'Alegreya SC', sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
   text-transform: uppercase;
-  letter-spacing: 4px;
-  margin-bottom: 30px;
-  color: $light;
 }
 
 .dark-container .section-title {

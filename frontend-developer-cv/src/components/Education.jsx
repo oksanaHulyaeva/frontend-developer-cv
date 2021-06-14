@@ -4,7 +4,7 @@ import { Capture } from './Capture';
 
 export const Education = (props) => {
   return (
-    <section>
+    <section className='education'>
       <Capture title={props.isEnglish ? 'Education' : 'Образование'}/>
       <div>
         <h4>

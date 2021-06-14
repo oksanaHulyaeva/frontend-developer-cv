@@ -13,9 +13,6 @@ import { Experience } from './components/Experience';
 import { More } from './components/More';
 import './App.scss';
 
-// import { EnglishCV } from './components/EnglishCV';
-//import { Capture } from './components/Capture'
-
 export const App = () => {
   const [ isEnglish, setIsEnglish ] = useState(true);
 
@@ -23,9 +20,9 @@ export const App = () => {
     <>
       <Controls
         func={setIsEnglish}
+        isEnglish={isEnglish}
       />
       <div className="flex-container">
-
         <div className="dark-container">
           <div className="inner-content">
             <Avatar />

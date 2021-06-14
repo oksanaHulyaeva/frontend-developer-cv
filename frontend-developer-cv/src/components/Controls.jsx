@@ -15,13 +15,18 @@ export const Controls = (props) => {
         <li>
           <button 
             onClick={clickHandler}
-            onTouchEnd={clickHandler}>En</button>
+            onTouchEnd={clickHandler}
+            className={props.isEnglish ? 'active-button' : ''}>
+              En
+          </button>
         </li>
         <li>
           <button
             onClick={clickHandler}
             onTouchEnd={clickHandler}
-            >Ru</button>
+            className={props.isEnglish ? '' : 'active-button'}>
+              Ru
+          </button>
         </li>
       </ul>
     </nav>

@@ -21,17 +21,25 @@
     cursor: pointer;
     transition: $transition;
     &:hover {
+      color: $accent-hover;
+      border: 2px solid $accent-hover;
+    }
+    &.active-button {
       color: $light;
       border: 2px solid $light;
     }
   }
   @include media-tablet {
     button {
-      color: $dark;
-      border: 2px solid $dark;
+      color: $accent;
+      border: 2px solid $accent;
       &:hover {
-        color: $accent;
-        border: 2px solid $accent;
+        color: $accent-hover;
+        border: 2px solid $accent-hover;
+      }
+      &.active-button {
+        color: $dark;
+        border: 2px solid $dark;
       }
     }
   }

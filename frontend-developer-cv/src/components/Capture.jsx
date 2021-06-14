@@ -1,7 +1,7 @@
 import React from 'react';
 
-export const Capture = ({title}) => {
+export const Capture = (props) => {
   return (
-    <h3 className={'section-title'}>{title}</h3>
+    <h3 className={'section-title'}>{props.title}</h3>
   )
 }

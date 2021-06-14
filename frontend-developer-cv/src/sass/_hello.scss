@@ -1,15 +1,12 @@
 .light-container .hello {
   display: none;
+  @include media-tablet {
+    display: block;
+  }
 }
 
 .dark-container .hello {
   @include media-tablet {
     display: none;
-  }
-}
-
-.light-container .hello {
-  @include media-tablet {
-    display: block;
   }
 }
