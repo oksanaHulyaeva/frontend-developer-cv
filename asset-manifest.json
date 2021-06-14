@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/frontend-developer-cv/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/frontend-developer-cv/static/js/main.a56dc5e4.chunk.js",
-    "main.js.map": "/frontend-developer-cv/static/js/main.a56dc5e4.chunk.js.map",
-    "runtime-main.js": "/frontend-developer-cv/static/js/runtime-main.80498d5e.js",
-    "runtime-main.js.map": "/frontend-developer-cv/static/js/runtime-main.80498d5e.js.map",
-    "static/js/2.00c3712c.chunk.js": "/frontend-developer-cv/static/js/2.00c3712c.chunk.js",
-    "static/js/2.00c3712c.chunk.js.map": "/frontend-developer-cv/static/js/2.00c3712c.chunk.js.map",
-    "static/js/3.601364a4.chunk.js": "/frontend-developer-cv/static/js/3.601364a4.chunk.js",
-    "static/js/3.601364a4.chunk.js.map": "/frontend-developer-cv/static/js/3.601364a4.chunk.js.map",
+    "main.css": "/frontend-developer-cv/static/css/main.dd3fbdc2.chunk.css",
+    "main.js": "/frontend-developer-cv/static/js/main.45129e83.chunk.js",
+    "main.js.map": "/frontend-developer-cv/static/js/main.45129e83.chunk.js.map",
+    "runtime-main.js": "/frontend-developer-cv/static/js/runtime-main.00a7a221.js",
+    "runtime-main.js.map": "/frontend-developer-cv/static/js/runtime-main.00a7a221.js.map",
+    "static/js/2.21106bc0.chunk.js": "/frontend-developer-cv/static/js/2.21106bc0.chunk.js",
+    "static/js/2.21106bc0.chunk.js.map": "/frontend-developer-cv/static/js/2.21106bc0.chunk.js.map",
+    "static/js/3.eb4c8f72.chunk.js": "/frontend-developer-cv/static/js/3.eb4c8f72.chunk.js",
+    "static/js/3.eb4c8f72.chunk.js.map": "/frontend-developer-cv/static/js/3.eb4c8f72.chunk.js.map",
     "index.html": "/frontend-developer-cv/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/frontend-developer-cv/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.00c3712c.chunk.js.LICENSE.txt": "/frontend-developer-cv/static/js/2.00c3712c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/frontend-developer-cv/static/media/logo.6ce24c58.svg"
+    "static/css/main.dd3fbdc2.chunk.css.map": "/frontend-developer-cv/static/css/main.dd3fbdc2.chunk.css.map",
+    "static/js/2.21106bc0.chunk.js.LICENSE.txt": "/frontend-developer-cv/static/js/2.21106bc0.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/frontend-developer-cv/static/media/sertificate_rss.9c391dba.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.80498d5e.js",
-    "static/js/2.00c3712c.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.a56dc5e4.chunk.js"
+    "static/js/runtime-main.00a7a221.js",
+    "static/js/2.21106bc0.chunk.js",
+    "static/css/main.dd3fbdc2.chunk.css",
+    "static/js/main.45129e83.chunk.js"
   ]
 }
